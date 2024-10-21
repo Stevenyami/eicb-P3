@@ -1,0 +1,34 @@
+//RECSEL5
+record fraction {
+    var int denominator;
+    var int numerator;
+}
+
+function fraction frac_add(fraction a, fraction b) {
+    val int d = a@denominator*b@numerator + a@numerator*b@denominator;
+    val int n = a@numerator*b@numerator;
+    val int g = gcd(d, n);
+    return @fraction[d / g, n / g];
+}
+
+function int gcd(int a, int b) {
+    for (a = a; a != b; a = a) {
+        if (a > b) {
+            a = a - b;
+        } else {
+            b = b - a;
+        }
+    }
+    return a;
+}
+
+function void main(){
+    val fraction a = @fraction[3, 10];
+    val fraction b = @fraction[1, 5];
+    val fraction c = frac_add(a, b);
+
+    printInt(c@denominator);
+    printString("/");
+    printInt(c@numerator);
+    printLine();
+}

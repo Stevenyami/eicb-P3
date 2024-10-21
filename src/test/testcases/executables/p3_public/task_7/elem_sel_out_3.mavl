@@ -1,0 +1,7 @@
+function void main() {
+    val vector<int>[3] x = [1, 2, 3];
+
+    printInt(x[1]);  printLine();
+    printInt(x[2]);  printLine();
+    printInt(x[3]);  printLine();
+}

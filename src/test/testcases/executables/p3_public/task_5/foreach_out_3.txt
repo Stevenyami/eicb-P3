@@ -1,0 +1,11 @@
+14
+22
+26
+21
+33
+39
+35
+55
+65
+
+The program has finished successfully.

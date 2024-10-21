@@ -1,0 +1,16 @@
+record counter {
+	var int x;
+	val int inc;
+	val int dec;
+}
+
+function void main() {
+	var counter c;
+	c = @counter[0, 7, 3];
+
+	c = @counter[c@x + c@inc, c@inc, c@dec];
+	c = @counter[c@x - c@dec, c@inc, c@dec];
+	
+	printInt(c@x);
+	printLine();
+}

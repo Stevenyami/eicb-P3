@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mavlc.testing.OutputCompareTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2024-01-23T21:08:54" hostname="DESKTOP-N34EP02" time="0.958">
+  <properties/>
+  <testcase name="test[p3_public/task_1/fibonacci]" classname="mavlc.testing.OutputCompareTest" time="0.26"/>
+  <testcase name="test[p3_public/task_1/gcd]" classname="mavlc.testing.OutputCompareTest" time="0.026"/>
+  <testcase name="test[p3_public/task_2/matrix_mul_out_1]" classname="mavlc.testing.OutputCompareTest" time="0.058"/>
+  <testcase name="test[p3_public/task_3/compound_out_1]" classname="mavlc.testing.OutputCompareTest" time="0.031"/>
+  <testcase name="test[p3_public/task_3/compound_out_3]" classname="mavlc.testing.OutputCompareTest" time="0.046"/>
+  <testcase name="test[p3_public/task_4/lhs_out_3]" classname="mavlc.testing.OutputCompareTest" time="0.034"/>
+  <testcase name="test[p3_public/task_4/lhs_out_4]" classname="mavlc.testing.OutputCompareTest" time="0.034"/>
+  <testcase name="test[p3_public/task_4/matrix_lhs_out_2]" classname="mavlc.testing.OutputCompareTest" time="0.025"/>
+  <testcase name="test[p3_public/task_4/record_lhs_out_2]" classname="mavlc.testing.OutputCompareTest" time="0.041"/>
+  <testcase name="test[p3_public/task_4/vector_lhs_out_1]" classname="mavlc.testing.OutputCompareTest" time="0.022"/>
+  <testcase name="test[p3_public/task_5/foreach_out_3]" classname="mavlc.testing.OutputCompareTest" time="0.031"/>
+  <testcase name="test[p3_public/task_5/foreach_out_6]" classname="mavlc.testing.OutputCompareTest" time="0.059"/>
+  <testcase name="test[p3_public/task_5/foreach_out_7]" classname="mavlc.testing.OutputCompareTest" time="0.09"/>
+  <testcase name="test[p3_public/task_6/record_select_out_2]" classname="mavlc.testing.OutputCompareTest" time="0.015"/>
+  <testcase name="test[p3_public/task_6/record_select_out_4]" classname="mavlc.testing.OutputCompareTest" time="0.039"/>
+  <testcase name="test[p3_public/task_6/record_select_out_5]" classname="mavlc.testing.OutputCompareTest" time="0.028"/>
+  <testcase name="test[p3_public/task_7/elem_sel_out_3]" classname="mavlc.testing.OutputCompareTest" time="0.03"/>
+  <testcase name="test[p3_public/task_7/elem_sel_out_4]" classname="mavlc.testing.OutputCompareTest" time="0.024"/>
+  <testcase name="test[p3_public/task_7/elem_sel_out_6]" classname="mavlc.testing.OutputCompareTest" time="0.026"/>
+  <testcase name="test[p3_public/task_7/elem_sel_out_7]" classname="mavlc.testing.OutputCompareTest" time="0.031"/>
+  <system-out><![CDATA[=== Running test case p3_public/task_1/fibonacci ===
+
+55
+
+The program has finished successfully.
+Output:
+55
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_1/fibonacci finished successfully ===
+
+=== Running test case p3_public/task_1/gcd ===
+
+2
+
+The program has finished successfully.
+Output:
+2
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_1/gcd finished successfully ===
+
+=== Running test case p3_public/task_2/matrix_mul_out_1 ===
+
+5
+
+The program has finished successfully.
+Output:
+5
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_2/matrix_mul_out_1 finished successfully ===
+
+=== Running test case p3_public/task_3/compound_out_1 ===
+
+Start!
+1. compound statement
+2. compound statement
+The program has finished successfully.
+Output:
+Start!
+1. compound statement
+2. compound statement
+The program has finished successfully.
+
+
+=== Test case p3_public/task_3/compound_out_1 finished successfully ===
+
+=== Running test case p3_public/task_3/compound_out_3 ===
+
+Start!
+a: 42
+
+The program has finished successfully.
+Output:
+Start!
+a: 42
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_3/compound_out_3 finished successfully ===
+
+=== Running test case p3_public/task_4/lhs_out_3 ===
+
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_4/lhs_out_3 finished successfully ===
+
+=== Running test case p3_public/task_4/lhs_out_4 ===
+
+4.0
+
+The program has finished successfully.
+Output:
+4.0
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_4/lhs_out_4 finished successfully ===
+
+=== Running test case p3_public/task_4/matrix_lhs_out_2 ===
+
+15
+
+The program has finished successfully.
+Output:
+15
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_4/matrix_lhs_out_2 finished successfully ===
+
+=== Running test case p3_public/task_4/record_lhs_out_2 ===
+
+4
+
+The program has finished successfully.
+Output:
+4
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_4/record_lhs_out_2 finished successfully ===
+
+=== Running test case p3_public/task_4/vector_lhs_out_1 ===
+
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_4/vector_lhs_out_1 finished successfully ===
+
+=== Running test case p3_public/task_5/foreach_out_3 ===
+
+14
+22
+26
+21
+33
+39
+35
+55
+65
+
+The program has finished successfully.
+Output:
+14
+22
+26
+21
+33
+39
+35
+55
+65
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_5/foreach_out_3 finished successfully ===
+
+=== Running test case p3_public/task_5/foreach_out_6 ===
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+The program has finished successfully.
+Output:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_5/foreach_out_6 finished successfully ===
+
+=== Running test case p3_public/task_5/foreach_out_7 ===
+
+4.0
+-1.3333334
+0.8
+-0.5714286
+0.44444445
+-0.36363637
+0.30769232
+-0.26666668
+0.23529412
+-0.21052632
+0.1904762
+-0.17391305
+0.16
+-0.14814815
+0.13793103
+-0.12903225
+0.121212125
+-0.114285715
+0.10810811
+-0.102564104
+3.0916238
+
+The program has finished successfully.
+Output:
+4.0
+-1.3333334
+0.8
+-0.5714286
+0.44444445
+-0.36363637
+0.30769232
+-0.26666668
+0.23529412
+-0.21052632
+0.1904762
+-0.17391305
+0.16
+-0.14814815
+0.13793103
+-0.12903225
+0.121212125
+-0.114285715
+0.10810811
+-0.102564104
+3.0916238
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_5/foreach_out_7 finished successfully ===
+
+=== Running test case p3_public/task_6/record_select_out_2 ===
+
+4
+
+The program has finished successfully.
+Output:
+4
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_6/record_select_out_2 finished successfully ===
+
+=== Running test case p3_public/task_6/record_select_out_4 ===
+
+3
+2
+5
+-1
+
+The program has finished successfully.
+Output:
+3
+2
+5
+-1
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_6/record_select_out_4 finished successfully ===
+
+=== Running test case p3_public/task_6/record_select_out_5 ===
+
+1/2
+
+The program has finished successfully.
+Output:
+1/2
+
+The program has finished successfully.
+
+
+=== Test case p3_public/task_6/record_select_out_5 finished successfully ===
+
+=== Running test case p3_public/task_7/elem_sel_out_3 ===
+
+2
+3
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+2
+3
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_7/elem_sel_out_3 finished successfully ===
+
+=== Running test case p3_public/task_7/elem_sel_out_4 ===
+
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_7/elem_sel_out_4 finished successfully ===
+
+=== Running test case p3_public/task_7/elem_sel_out_6 ===
+
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_7/elem_sel_out_6 finished successfully ===
+
+=== Running test case p3_public/task_7/elem_sel_out_7 ===
+
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+Output:
+
+The program has finished with an error: runtimeError
+Error message: Index out of bounds
+
+
+=== Test case p3_public/task_7/elem_sel_out_7 finished successfully ===
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

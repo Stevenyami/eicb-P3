@@ -1,0 +1,6 @@
+function void main() {
+	var matrix<int>[3][3] m;
+	
+	printInt(m[1][3]);
+	printLine();
+}

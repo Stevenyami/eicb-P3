@@ -1,0 +1,16 @@
+function void main() {
+	var vector<int>[9] v;
+	var int index;
+	index = 0;
+	foreach(val int a : [2, 3, 5]) {
+		foreach(val int b : [7, 11, 13]) {
+			v[index] = a * b;
+			index = index + 1;
+		}
+	}
+	
+	foreach(val int x : v) {
+		printInt(x);
+		printLine();
+	}
+}

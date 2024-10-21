@@ -1,0 +1,28 @@
+//RECSEL4
+record rec {
+    var int x;
+    var int y;
+}
+
+function void main(){
+    var rec a;
+    a = @rec[2, 3];
+    a = swap(a);
+    printInt(a@x);
+    printLine();
+    printInt(a@y);
+    printLine();
+
+    a = @rec[a@x + a@y, a@y - a@x];
+    printInt(a@x);
+    printLine();
+    printInt(a@y);
+    printLine();
+}
+
+function rec swap(rec r){
+    val int i = r@x;
+    r@x = r@y;
+    r@y = i;
+    return r;
+}

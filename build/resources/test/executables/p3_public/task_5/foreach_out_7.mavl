@@ -1,0 +1,31 @@
+// See https://en.wikipedia.org/wiki/Leibniz_formula_for_π
+function void main() {
+	var vector<float>[20] v;
+	var float k;
+
+	k = 1.0;
+	foreach (var float x : v) {
+        x = k;
+        k = -k;
+    }
+
+	k = 1.0;
+	foreach (var float x : v) {
+        x = x / k;
+        k = k + 2.0;
+    }
+
+    v = v * 4.0;
+
+    var float sum;
+    sum = 0.0;
+
+	foreach (val float x : v) {
+        sum = sum + x;
+        printFloat(x);
+        printLine();
+    }
+
+    printFloat(sum);
+    printLine();
+}

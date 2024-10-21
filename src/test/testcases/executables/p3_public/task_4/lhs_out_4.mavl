@@ -1,0 +1,9 @@
+//LHS4
+function void main(){
+    val float x = 1.0;
+    var float y;
+    y = x + 2.0;
+    y = y + 1.0;
+    printFloat(y);
+    printLine();
+}

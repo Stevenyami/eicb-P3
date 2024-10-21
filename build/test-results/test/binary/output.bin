@@ -1,0 +1,375 @@
+6=== Running test case p3_public/task_1/fibonacci ===
+
+55
+
+(The program has finished successfully.
+Output:
+55
+
+'The program has finished successfully.
+
+
+D=== Test case p3_public/task_1/fibonacci finished successfully ===
+
+0=== Running test case p3_public/task_1/gcd ===
+
+2
+
+(The program has finished successfully.
+Output:
+2
+
+'The program has finished successfully.
+
+
+>=== Test case p3_public/task_1/gcd finished successfully ===
+
+==== Running test case p3_public/task_2/matrix_mul_out_1 ===
+
+5
+
+(The program has finished successfully.
+Output:
+5
+
+'The program has finished successfully.
+
+
+K=== Test case p3_public/task_2/matrix_mul_out_1 finished successfully ===
+
+;=== Running test case p3_public/task_3/compound_out_1 ===
+
+Start!
+1. compound statement
+2. compound statement
+(The program has finished successfully.
+Output:
+Start!
+1. compound statement
+2. compound statement
+'The program has finished successfully.
+
+
+I=== Test case p3_public/task_3/compound_out_1 finished successfully ===
+
+;=== Running test case p3_public/task_3/compound_out_3 ===
+
+Start!
+a: 42
+
+(The program has finished successfully.
+Output:
+Start!
+a: 42
+
+'The program has finished successfully.
+
+
+I=== Test case p3_public/task_3/compound_out_3 finished successfully ===
+
+6=== Running test case p3_public/task_4/lhs_out_3 ===
+
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+D=== Test case p3_public/task_4/lhs_out_3 finished successfully ===
+
+6=== Running test case p3_public/task_4/lhs_out_4 ===
+
+4.0
+
+(The program has finished successfully.
+Output:
+4.0
+
+'The program has finished successfully.
+
+
+D=== Test case p3_public/task_4/lhs_out_4 finished successfully ===
+
+	==== Running test case p3_public/task_4/matrix_lhs_out_2 ===
+	
+	15
+	
+	(The program has finished successfully.
+	Output:
+	15
+	
+	'The program has finished successfully.
+	
+	
+	K=== Test case p3_public/task_4/matrix_lhs_out_2 finished successfully ===
+	
+
+==== Running test case p3_public/task_4/record_lhs_out_2 ===
+
+
+
+4
+
+
+
+(The program has finished successfully.
+
+Output:
+
+4
+
+
+
+'The program has finished successfully.
+
+
+
+
+
+K=== Test case p3_public/task_4/record_lhs_out_2 finished successfully ===
+
+
+==== Running test case p3_public/task_4/vector_lhs_out_1 ===
+
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+K=== Test case p3_public/task_4/vector_lhs_out_1 finished successfully ===
+
+:=== Running test case p3_public/task_5/foreach_out_3 ===
+
+14
+22
+26
+21
+33
+39
+35
+55
+65
+
+(The program has finished successfully.
+Output:
+14
+22
+26
+21
+33
+39
+35
+55
+65
+
+'The program has finished successfully.
+
+
+H=== Test case p3_public/task_5/foreach_out_3 finished successfully ===
+
+:=== Running test case p3_public/task_5/foreach_out_6 ===
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+(The program has finished successfully.
+Output:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+'The program has finished successfully.
+
+
+H=== Test case p3_public/task_5/foreach_out_6 finished successfully ===
+
+:=== Running test case p3_public/task_5/foreach_out_7 ===
+
+4.0
+-1.3333334
+0.8
+-0.5714286
+0.44444445
+-0.36363637
+0.30769232
+-0.26666668
+0.23529412
+-0.21052632
+0.1904762
+-0.17391305
+0.16
+-0.14814815
+0.13793103
+-0.12903225
+0.121212125
+-0.114285715
+0.10810811
+-0.102564104
+3.0916238
+
+(The program has finished successfully.
+Output:
+4.0
+-1.3333334
+0.8
+-0.5714286
+0.44444445
+-0.36363637
+0.30769232
+-0.26666668
+0.23529412
+-0.21052632
+
+0.1904762
+-0.17391305
+0.16
+-0.14814815
+0.13793103
+-0.12903225
+0.121212125
+-0.114285715
+0.10810811
+-0.102564104
+
+3.0916238
+
+'The program has finished successfully.
+
+
+H=== Test case p3_public/task_5/foreach_out_7 finished successfully ===
+
+@=== Running test case p3_public/task_6/record_select_out_2 ===
+
+4
+
+(The program has finished successfully.
+Output:
+4
+
+'The program has finished successfully.
+
+
+N=== Test case p3_public/task_6/record_select_out_2 finished successfully ===
+
+@=== Running test case p3_public/task_6/record_select_out_4 ===
+
+3
+2
+5
+-1
+
+(The program has finished successfully.
+Output:
+3
+2
+5
+-1
+
+'The program has finished successfully.
+
+
+N=== Test case p3_public/task_6/record_select_out_4 finished successfully ===
+
+@=== Running test case p3_public/task_6/record_select_out_5 ===
+
+1/2
+
+(The program has finished successfully.
+Output:
+1/2
+
+'The program has finished successfully.
+
+
+N=== Test case p3_public/task_6/record_select_out_5 finished successfully ===
+
+;=== Running test case p3_public/task_7/elem_sel_out_3 ===
+
+2
+3
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+2
+3
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+I=== Test case p3_public/task_7/elem_sel_out_3 finished successfully ===
+
+;=== Running test case p3_public/task_7/elem_sel_out_4 ===
+
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+I=== Test case p3_public/task_7/elem_sel_out_4 finished successfully ===
+
+;=== Running test case p3_public/task_7/elem_sel_out_6 ===
+
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+I=== Test case p3_public/task_7/elem_sel_out_6 finished successfully ===
+
+;=== Running test case p3_public/task_7/elem_sel_out_7 ===
+
+
+6The program has finished with an error: runtimeError
+$Error message: Index out of bounds
+Output:
+
+5The program has finished with an error: runtimeError
+#Error message: Index out of bounds
+
+
+I=== Test case p3_public/task_7/elem_sel_out_7 finished successfully ===
+
